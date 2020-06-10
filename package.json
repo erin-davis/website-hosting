@@ -10,7 +10,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "http://erin-davis.github.io/website-hosting",
+  "homepage": "http://erin-davis.github.io/website-hosting/public",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "yarn run build",
