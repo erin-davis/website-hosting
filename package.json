@@ -10,11 +10,12 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homepage": "http://erin-davis.github.io/website-hosting/public",
+  "homepage": "https://erindavisdev.com",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
