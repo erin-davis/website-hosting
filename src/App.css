@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+.App{
+  background: white;
+}
+
+nav{
+  background: #C98986;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+.links:hover{
+  background: #582630;
+  color: lightgray;
+}
+
+.landing-page{
+  width: 80%;
+  margin: 0 9%;
+}
+
+.skill-page{
+  border: 1px solid hotpink;
+  width: 80%;
+  margin: 10px 9%;
+}
+
+.contact{
+  padding: 10px;
+}
