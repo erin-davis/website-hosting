@@ -16,8 +16,8 @@ function App() {
           <nav className="navigation">
             <h1 className="site-header">Erin Davis Front-End Web Developer</h1>
             <div className="nav-links">
+            <Link to="/" className="links">Home</Link>
             <Link to="/about" className="links">About Me</Link>
-            <Link to="/home" className="links">Home</Link>
             <Link to="/github" className="links" >Github</Link>
             <Link to="/linkedin" className="links">LinkedIn</Link>
             <Link to="/skills" className="links">Skills</Link>
@@ -25,11 +25,20 @@ function App() {
             <Link to="/contactme" className="links">Contact Me</Link>
             </div>
           </nav>
-          <LandingPage />
+          <div className="app-body">
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
           {/* Commenting out for the time being <SkillsPage />*/}
-          <Projects />
-          <About />
-          <ContactForm />
+          <Route path="projects">
+            <Projects />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contactme">
+            <ContactForm />
+          </Route>
 
         {/*  <Route exact path="/">
             <LandingPage />
@@ -45,6 +54,7 @@ function App() {
           </Route>
           <Route path="">
           </Route>*/}
+          </div>
         </div>
       </main>
     </Router>
