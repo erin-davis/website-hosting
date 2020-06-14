@@ -9,10 +9,6 @@ import ContactForm from "./components/ContactForm.js";
 //import NavBar from "./components/NavBar.js";
 
 function App() {
-
-  let navbar = document.getElementById('navbar');
-  console.log(navbar);
-
   return (
     <Router>
       <main>
@@ -35,34 +31,6 @@ function App() {
           <SkillsPage />
           <About />
           <ContactForm />
-        {/*  <Route exact path="/">
-            <LandingPage />
-          </Route>
-          //commented out <SkillsPage />
-          <Route path="projects">
-            <Projects />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contactme">
-            <ContactForm />
-          </Route>
-
-          <Route exact path="/">
-            <LandingPage />
-          </Route>
-          <Route path="/skills">
-            <SkillsPage />
-          </Route>
-          <Route path="">
-          </Route>
-          <Route path="">
-          </Route>
-          <Route path="">
-          </Route>
-          <Route path="">
-          </Route>*/}
           </div>
         </div>
       </main>

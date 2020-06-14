@@ -12,7 +12,7 @@ export default function ContactForm(){
 
 
   return (
-    <div className="contact comp">
+    <div className="contact">
       <h1>Contact Me!</h1>
       <form>
         <label for="name">Name:</label>
