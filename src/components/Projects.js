@@ -4,7 +4,7 @@ import React from "react";
 import {portProj} from "../data/PortfolioInfo.js";
 
 export default function Projects(props) {
-  console.log("from Projects.js", portProj)
+  //console.log("from Projects.js", portProj)
   return(
     <div className="projects-page comp">
     <h1>Portfolio Projects</h1>

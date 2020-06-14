@@ -6,68 +6,51 @@ import SkillsPage from "./components/SkillsPage.js"
 import Projects from "./components/Projects.js";
 import About from "./components/About.js";
 import ContactForm from "./components/ContactForm.js";
-//import NavBar from "./components/NavBar.js";
+import NavBar from "./components/NavBar.js";
 
-function App() {
+class App extends React.Component {
+  constructor(){
+    super();
+    console.log('in constructor');
+  }
 
-  let navbar = document.getElementById('navbar');
-  console.log(navbar);
+  componentDidMount(){
+    window.onscroll = function(){scrolling()};
+    console.log('in cdm');
+    let navibar = document.getElementById('navibar');
+    console.log("nav bar", navibar);
+    let sticky = navibar.offsetTop;
+    //adding the sticky class on scroll
+    function scrolling(){
+      if(window.pageYOffset >= sticky){
+        navibar.classList.add('sticky');
+      } else {
+        navibar.classList.remove('sticky');
+      }
+    }
+  }
 
+  render(){
+    console.log('in render');
   return (
     <Router>
       <main>
         <div className="App">
-          <nav className="navigation" id="navbar">
-            <h1 className="site-header">Erin Davis Front-End Web Developer</h1>
-            <div className="nav-links">
-            <Link to="/" className="links">Home</Link>
-            <Link to="/about" className="links">About Me</Link>
-            <Link to="/github" className="links" >Github</Link>
-            <Link to="/linkedin" className="links">LinkedIn</Link>
-            <Link to="/skills" className="links">Skills</Link>
-            <Link to="/projects" className="links">Projects</Link>
-            <Link to="/contactme" className="links">Contact Me</Link>
-            </div>
-          </nav>
+          <header>
+          <NavBar />
+          </header>
           <div className="app-body">
           <LandingPage />
-          <Projects />
-          <SkillsPage />
           <About />
-          <ContactForm />
-        {/*  <Route exact path="/">
-            <LandingPage />
-          </Route>
-          //commented out <SkillsPage />
-          <Route path="projects">
-            <Projects />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/contactme">
-            <ContactForm />
-          </Route>
-
-          <Route exact path="/">
-            <LandingPage />
-          </Route>
-          <Route path="/skills">
-            <SkillsPage />
-          </Route>
-          <Route path="">
-          </Route>
-          <Route path="">
-          </Route>
-          <Route path="">
-          </Route>
-          <Route path="">
-          </Route>*/}
+          <SkillsPage />
+          <Projects />
+          <ContactForm />      
           </div>
         </div>
       </main>
     </Router>
   );
+}
 }
 
 export default App;
