@@ -1,0 +1,235 @@
+[33mcommit 1cca15d863baf7d9573aa7885736cb2974ce387b[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m)[m
+Merge: 15b8b0f8 16e66319
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 17:42:32 2020 -0500
+
+    Merge branch 'erin-davis' into gh-pages
+
+[33mcommit 16e6631924f440437086944b989aa0339a219134[m[33m ([m[1;32merin-davis[m[33m)[m
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 17:42:10 2020 -0500
+
+    deleted a few files
+
+[33mcommit 15b8b0f89e0d1b6a4ca95a89af4dfa3de1b99083[m[33m ([m[1;31morigin/gh-pages[m[33m)[m
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 17:37:40 2020 -0500
+
+    node_modules changes
+
+[33mcommit 0e00a0826a558daae9f2fa8352cbca20f852f0ef[m
+Merge: 6a7fc063 bd501e3a
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 17:36:12 2020 -0500
+
+    Merge branch 'dependabot/npm_and_yarn/websocket-extensions-0.1.4' into gh-pages
+
+[33mcommit 6a7fc063c90df3f4a8ba78ff1263550d8570b848[m
+Merge: 138fbe61 446ae7b9
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 17:26:26 2020 -0500
+
+    Merge branch 'erin-davis' into gh-pages
+
+[33mcommit 446ae7b9379751b3b5a3c2d83e320eaef10faac6[m[33m ([m[1;31morigin/erin-davis[m[33m)[m
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 17:16:18 2020 -0500
+
+    Update SkillsPage.js
+
+[33mcommit 138fbe617267a9bc16d7c69b7320e1fa8448e87b[m
+Merge: d3870e30 bef8b541
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 16:59:56 2020 -0500
+
+    trying to merge
+
+[33mcommit d3870e3060e40da916042866d6530244b76c8833[m
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 16:59:01 2020 -0500
+
+    adding small file
+
+[33mcommit bef8b5418799e2251df56a80f0f8845d842279b8[m
+Merge: 1d35f384 12275f15
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 16:54:11 2020 -0500
+
+    Merge pull request #6 from erin-davis/revert-3-erin-davis
+    
+    Revert "finished basic sizing concerns"
+
+[33mcommit 12275f15b978ffc85d67629b860f27eb53028d3f[m
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Sun Jun 14 16:53:24 2020 -0500
+
+    Revert "finished basic sizing concerns"
+
+[33mcommit 1d35f38481fa75ea7914979eba28bddb899f6f52[m
+Merge: 0c91564f dcd35f5a
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Sun Jun 14 16:39:07 2020 -0500
+
+    most likely to be deleted because there's no skillspage.js
+
+[33mcommit 0c91564fe574bf58f689c9ba5c39e364b9d44fe8[m
+Merge: 53eca212 a4afff35
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Sun Jun 14 16:35:49 2020 -0500
+
+    merging erin-davis and gh-pages. this is the merge w the sticky nav bar
+
+[33mcommit a4afff35092e4ec5fa97ac9c4ae8840efe08ec3e[m[33m ([m[1;31morigin/newCommit[m[33m, [m[1;32mnewCommit[m[33m)[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Sun Jun 14 16:26:50 2020 -0500
+
+    finished sticky nav bar and am working on basic styling for mobile and smaller screens
+
+[33mcommit 8653f020b88115040f8b0c39543524697b30ddb5[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Sun Jun 14 14:38:44 2020 -0500
+
+    added file for portfolio projects and more consistent styling
+
+[33mcommit 92244c29733f96967806f5b15c99cb40d799618a[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 23:23:51 2020 -0500
+
+    editing portfolio, working on styling currently before i add decent content
+
+[33mcommit 53eca21237ef3b8ed9ee33670011e443050b6cec[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 21:48:20 2020 -0500
+
+    changed package.json and added ghpages again
+
+[33mcommit dcd35f5a93a7009d8986d91f55d30dcb97209fa7[m
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Thu Jun 11 21:43:05 2020 -0500
+
+    Create CNAME
+
+[33mcommit b4253cfeb9ca8d196023f931ebba5af32cb7fedd[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 21:35:22 2020 -0500
+
+    Updates
+
+[33mcommit bd501e3a953fd34777dfc99bf8fb3c541b68fdd5[m[33m ([m[1;31morigin/dependabot/npm_and_yarn/websocket-extensions-0.1.4[m[33m, [m[1;32mdependabot/npm_and_yarn/websocket-extensions-0.1.4[m[33m)[m
+Author: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+Date:   Fri Jun 12 02:28:06 2020 +0000
+
+    Bump websocket-extensions from 0.1.3 to 0.1.4
+    
+    Bumps [websocket-extensions](https://github.com/faye/websocket-extensions-node) from 0.1.3 to 0.1.4.
+    - [Release notes](https://github.com/faye/websocket-extensions-node/releases)
+    - [Changelog](https://github.com/faye/websocket-extensions-node/blob/master/CHANGELOG.md)
+    - [Commits](https://github.com/faye/websocket-extensions-node/compare/0.1.3...0.1.4)
+    
+    Signed-off-by: dependabot[bot] <support@github.com>
+
+[33mcommit e957e14aaa8dbabd7179b06e827cb1200be90e33[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 19:53:01 2020 -0500
+
+    package.json edit and removal of serviceWorker.js
+
+[33mcommit 6907126f592b027c4b1dd6f9050502033ba0197d[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 19:43:52 2020 -0500
+
+    edited package.json moving homepage and changing deploy dependency
+
+[33mcommit ad58c60a263b370253feaf259f2ff90f00d547b7[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 18:48:07 2020 -0500
+
+    imported files from other repo in an attempt to work from a clean slate like this
+
+[33mcommit ac3362307db35fdc1274c17cf78b50ea5d74527a[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 06:26:09 2020 -0500
+
+    reverted to putting CNAME file back in main bit
+
+[33mcommit 4bbe2789ecf0e604217b8445e48098001e56743b[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 06:19:35 2020 -0500
+
+    moved location of CNAME file
+
+[33mcommit a2b33d6041cd1c655baa835933dc5a769d07a072[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Thu Jun 11 06:17:22 2020 -0500
+
+    changed package.json updating homepage url and scripts
+
+[33mcommit 902b2ef92ea4222c9df301a5b27423be0e6277a9[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 21:01:21 2020 -0500
+
+    removed index.html
+
+[33mcommit d19a590b7577e1da35074384f9a5396f9fef0c86[m
+Merge: 00be78e6 3a86c46a
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 20:56:40 2020 -0500
+
+    minor change in package.json (of the homepage key val pair) to /public ending
+
+[33mcommit 00be78e6796dbfb5312ffd0141346bd9f59cdba7[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 20:56:17 2020 -0500
+
+    minor change in package.json (of the homepage key val pair) to /public ending
+
+[33mcommit 3a86c46a5833a65f4b2208e5821f5cbfbc35b492[m
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Tue Jun 9 20:39:52 2020 -0500
+
+    create index.html
+    
+    File will be deleted after I have proof of the site updating
+
+[33mcommit 83c3ae94d0d1bbf22b7d4ab7eecf1d3df7d1ea2d[m
+Merge: f5bb0905 7b792c1f
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 20:35:06 2020 -0500
+
+    removed my-site directory and moved the files to be on the base level aka just without something like my-site/README.md
+
+[33mcommit f5bb0905f8a5f1c13521f136a557735b6bd8ba5c[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 20:34:23 2020 -0500
+
+    removed my-site directory and moved the files to be on the base level aka just without something like my-site/README.md
+
+[33mcommit 7b792c1f46ecf7f5b12b6b5171d002da371cd49f[m
+Author: Erin Davis <51665717+erin-davis@users.noreply.github.com>
+Date:   Tue Jun 9 20:24:02 2020 -0500
+
+    created CNAME file for erindavisdev.com
+
+[33mcommit 4d9db6196287d24cbaaa233581d7199800d00f30[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 20:16:02 2020 -0500
+
+    opening gh-pages branch
+
+[33mcommit 233c60b2ce8fba735c01e8805d84c8bd7e1f8229[m[33m ([m[1;32myarn.react[m[33m)[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 20:14:12 2020 -0500
+
+    did step two in deploying a react app
+
+[33mcommit 9b9682c151a0579205ad2460a1fc9b39957c14d3[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 19:45:13 2020 -0500
+
+    added a react app
+
+[33mcommit e29bbf8c9f3a90418ae0b3d354ac68e584f59b18[m
+Author: Erin Davis <davisaerin@gmail.com>
+Date:   Tue Jun 9 19:31:24 2020 -0500
+
+    first commit

@@ -78,3 +78,53 @@ nav{
 .contact{
   padding: 10px;
 }
+<<<<<<< HEAD
+=======
+form{
+  border: 2px solid pink;
+  display: flex;
+  flex-direction: column;
+  /*align-items: flex-start;*/
+  width: 75%;
+  padding: 15px;
+}
+form label{
+  font-size: 1rem;
+}
+
+.projects-page{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projects-page h1{
+  width: 100%;
+}
+
+.project{
+  border: 1px solid pink;
+  border-radius: 10px;
+  width: 40%;
+  margin: 10px 4.5%;
+}
+
+.about{
+  border: 1px solid skyblue;
+}
+
+.landing-page{
+  border: 1px solid hotpink;
+}
+
+.comp{
+  margin: 10px 0;
+}
+/*added to the navbar w/ JS once it scrolls*/
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+>>>>>>> parent of a4afff35... finished sticky nav bar and am working on basic styling for mobile and smaller screens
