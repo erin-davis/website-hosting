@@ -13,6 +13,7 @@ class App extends React.Component {
     super();
     console.log('in constructor');
   }
+  //comment to update
 
   componentDidMount(){
     window.onscroll = function(){scrolling()};
@@ -44,7 +45,7 @@ class App extends React.Component {
           <About />
           <SkillsPage />
           <Projects />
-          <ContactForm />      
+          <ContactForm />
           </div>
         </div>
       </main>
