@@ -125,32 +125,9 @@ form label{
 .comp{
   margin: 10px 0;
 }
-/*styling for a sticky navBar*/
-
-#navibar{
-  overflow: hidden;
-}
-
+/*added to the navbar w/ JS once it scrolls*/
 .sticky{
   position: fixed;
   top: 0;
   width: 100%;
 }
-.app-body{
-  margin-top: 50px;
-  padding: 20px;
-}
-
-.sticky + .app-body{
-  padding-top: 60px;
-}
-
-/*media query for smaller screen at 1050px*/
-
-
-
-/*media query for tablet at 800px*/
-
-
-
-/*media query for mobile at 500px*/
