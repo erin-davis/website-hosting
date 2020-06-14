@@ -8,49 +8,43 @@ import About from "./components/About.js";
 import ContactForm from "./components/ContactForm.js";
 import NavBar from "./components/NavBar.js";
 
-class App extends React.Component {
-  constructor(){
-    super();
-    console.log('in constructor');
-  }
-
-  componentDidMount(){
-    window.onscroll = function(){scrolling()};
-    console.log('in cdm');
-    let navibar = document.getElementById('navibar');
-    console.log("nav bar", navibar);
-    let sticky = navibar.offsetTop;
-    //adding the sticky class on scroll
-    function scrolling(){
-      if(window.pageYOffset >= sticky){
-        navibar.classList.add('sticky');
-      } else {
-        navibar.classList.remove('sticky');
-      }
-    }
-  }
-
-  render(){
-    console.log('in render');
+function App() {
   return (
     <Router>
       <main>
         <div className="App">
-          <header>
-          <NavBar />
-          </header>
+          <nav className="navigation">
+            <h1 className="site-header">Erin Davis Front-End Web Developer</h1>
+            <div className="nav-links">
+            <Link to="/" className="links">Home</Link>
+            <Link to="/about" className="links">About Me</Link>
+            <Link to="/github" className="links" >Github</Link>
+            <Link to="/linkedin" className="links">LinkedIn</Link>
+            <Link to="/skills" className="links">Skills</Link>
+            <Link to="/projects" className="links">Projects</Link>
+            <Link to="/contactme" className="links">Contact Me</Link>
+            </div>
+          </nav>
           <div className="app-body">
-          <LandingPage />
-          <About />
-          <SkillsPage />
-          <Projects />
-          <ContactForm />      
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+          {/* Commenting out for the time being <SkillsPage />*/}
+          <Route path="projects">
+            <Projects />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/contactme">
+            <ContactForm />
+          </Route>
           </div>
         </div>
       </main>
     </Router>
   );
 }
-}
+
 
 export default App;
