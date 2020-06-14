@@ -1,5 +1,5 @@
 .App {
-  text-align: left;
+  text-align: center;
 }
 
 .App-logo {
@@ -63,94 +63,18 @@ nav{
   background: #582630;
   color: lightgray;
 }
-.app-body{
-  padding: 10px;
-  width: 80%;
-  margin: 10px 9%;
-}
 
 .landing-page{
-/*code here*/
+  width: 80%;
+  margin: 0 9%;
 }
 
 .skill-page{
   border: 1px solid hotpink;
+  width: 80%;
+  margin: 10px 9%;
 }
 
 .contact{
   padding: 10px;
-  border: 1px solid red;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
-form{
-  border: 2px solid pink;
-  display: flex;
-  flex-direction: column;
-  /*align-items: flex-start;*/
-  width: 75%;
-  padding: 15px;
-}
-form label{
-  font-size: 1rem;
-}
-
-.projects-page{
-  border: 1px solid black;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.projects-page h1{
-  width: 100%;
-}
-
-.project{
-  border: 1px solid pink;
-  border-radius: 10px;
-  width: 40%;
-  margin: 10px 4.5%;
-}
-
-.about{
-  border: 1px solid skyblue;
-}
-
-.landing-page{
-  border: 1px solid hotpink;
-}
-
-.comp{
-  margin: 10px 0;
-}
-/*styling for a sticky navBar*/
-
-#navibar{
-  overflow: hidden;
-}
-
-.sticky{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.app-body{
-  margin-top: 50px;
-  padding: 20px;
-}
-
-.sticky + .app-body{
-  padding-top: 60px;
-}
-
-/*media query for smaller screen at 1050px*/
-
-
-
-/*media query for tablet at 800px*/
-
-
-
-/*media query for mobile at 500px*/
