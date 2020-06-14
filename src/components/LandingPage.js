@@ -5,7 +5,7 @@ export default function LandingPage() {
 
   return (
     <div>
-      <section className="landing-page">
+      <section className="landing-page comp">
         <h1>Erin Davis Landing Page with Flavor</h1>
         <p>Hello, I'm Erin Davis, a Front End Web Developer from Oklahoma!</p>
         <p>Doggo ipsum boof woofer vvv what a nice floof, doggorino. Borking doggo pupperino much ruin diet shoob, shooberino. Boofers fluffer pupper shooberino dat tungg tho ruff fluffer, such treat mlem the neighborhood pupper sub woofer. Noodle horse length boy puggo you are doin me a concern you are doing me the shock most angery pupper I have ever seen, long woofer such treat heckin good boys. Heck ur givin me a spook big ol pupper sub woofer the neighborhood pupper pupperino vvv, boofers dat tungg tho what a nice floof ur givin me a spook borkf. </p>

@@ -9,11 +9,15 @@ import ContactForm from "./components/ContactForm.js";
 //import NavBar from "./components/NavBar.js";
 
 function App() {
+
+  let navbar = document.getElementById('navbar');
+  console.log(navbar);
+
   return (
     <Router>
       <main>
         <div className="App">
-          <nav className="navigation">
+          <nav className="navigation" id="navbar">
             <h1 className="site-header">Erin Davis Front-End Web Developer</h1>
             <div className="nav-links">
             <Link to="/" className="links">Home</Link>
@@ -26,10 +30,15 @@ function App() {
             </div>
           </nav>
           <div className="app-body">
-          <Route exact path="/">
+          <LandingPage />
+          <Projects />
+          <SkillsPage />
+          <About />
+          <ContactForm />
+        {/*  <Route exact path="/">
             <LandingPage />
           </Route>
-          {/* Commenting out for the time being <SkillsPage />*/}
+          //commented out <SkillsPage />
           <Route path="projects">
             <Projects />
           </Route>
@@ -40,7 +49,7 @@ function App() {
             <ContactForm />
           </Route>
 
-        {/*  <Route exact path="/">
+          <Route exact path="/">
             <LandingPage />
           </Route>
           <Route path="/skills">
