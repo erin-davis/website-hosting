@@ -1,5 +1,6 @@
 .App {
   text-align: left;
+  background:
 }
 
 .App-logo {
@@ -143,6 +144,26 @@ form label{
 
 .sticky + .app-body{
   padding-top: 60px;
+}
+
+.skill-page h1{
+  width: 100%;
+}
+
+.skill-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.single-skill{
+  width: 25%;
+  margin: 10px 3%;
+}
+
+.lang-logos{
+  width: 100px;
+  height: 100px;
 }
 
 /*media query for smaller screen at 1050px*/

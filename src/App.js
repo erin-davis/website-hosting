@@ -7,6 +7,7 @@ import Projects from "./components/Projects.js";
 import About from "./components/About.js";
 import ContactForm from "./components/ContactForm.js";
 import NavBar from "./components/NavBar.js";
+import Footer from "./components/Footer.js";
 
 class App extends React.Component {
   constructor(){
@@ -44,7 +45,8 @@ class App extends React.Component {
           <About />
           <SkillsPage />
           <Projects />
-          <ContactForm />      
+          <ContactForm />
+          <Footer />
           </div>
         </div>
       </main>
