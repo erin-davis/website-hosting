@@ -36,7 +36,7 @@ class App extends React.Component {
   return (
     <Router>
       <main>
-        <div className="App">
+        <div className="App large medium small">
           <header>
           <NavBar />
           </header>
