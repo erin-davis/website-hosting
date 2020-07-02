@@ -1,39 +1,45 @@
 //this is an object of the portfolio projects that i'll be drawing from
 export const portProj = [
   {
-    name: "Project 1",
+    name: "Interactive Music Player",
     screenshot: "img link here",
-    repo: "gh link here",
-    site: "link the deployed site here"
+    repo: "https://github.com/erin-davis/Music-Player-React",
+    site: "link the deployed site here",
+    summary: "Here’s the summary of the app and what it does. This is pretty neat!"
   },
   {
-    name: "Project 2",
+    name: "Projects Todo App",
     screenshot: "img link here",
-    repo: "gh link here",
-    site: "link the deployed site here"
+    repo: "https://github.com/erin-davis/Projects-Todo",
+    site: "link the deployed site here",
+    summary: "This app holds a list of all the projects I want to do and can add new projects as well."
   },
   {
-    name: "Project 3",
+    name: "Interactive Ecommerce Site",
     screenshot: "img link here",
-    repo: "gh link here",
-    site: "link the deployed site here"
+    repo: "https://github.com/erin-davis/Ecommerce-Site",
+    site: "link the deployed site here",
+    summary: "This is an Ecommerce site that updates information in real-time."
   },
   {
-    name: "Project 4",
+    name: "Book Finder App",
     screenshot: "img link here",
-    repo: "gh link here",
-    site: "link the deployed site here"
+    repo: "https://github.com/erin-davis/Book-Finder",
+    site: "link the deployed site here",
+    summary: "Pulls data from Google Books API and allows searching and list creation."
   },
   {
-    name: "Project 5",
+    name: "Company Directory",
     screenshot: "img link here",
-    repo: "gh link here",
-    site: "link the deployed site here"
+    repo: "https://github.com/erin-davis/Company-Directory",
+    site: "link the deployed site here",
+    summary: "Pulls data from random user generator API and displays their information."
   },
   {
-    name: "Project 6",
+    name: "Personal Sky",
     screenshot: "img link here",
-    repo: "gh link here",
-    site: "link the deployed site here"
+    repo: "https://github.com/erin-davis/Your-Personal-Sky",
+    site: "link the deployed site here",
+    summary: "Using the NASA API, the user can view pictures from specific dates"
   }
 ];

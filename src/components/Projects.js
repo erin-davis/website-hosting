@@ -12,6 +12,10 @@ export default function Projects(props) {
       return (
         <div className="project">
         <h3>{proj.name}</h3>
+        <img src={proj.screenshot} alt={`${proj.name} site screenshot`} className="single-project"/>
+        <p>{proj.summary}</p>
+        <a href={proj.repo} target="_blank">Repo</a>
+        <a href={proj.site} target="_blank">Site</a>
         </div>
       )
     })}
