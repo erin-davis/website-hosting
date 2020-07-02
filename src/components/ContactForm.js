@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 export default function ContactForm(){
 
@@ -6,10 +6,14 @@ export default function ContactForm(){
   contact form to just a message that says "I'll get back to you soon!"
   Also make sure all the inputs except the checkbox are required
   */
-  const onChange = e =>{
-    e.preventDefault();
+  const [value, setValue] = useState({
+    name: "",
+    email: "",
+    message: ""
+  })
+  const handleChanges = e =>{
+    setValue({...value, [e.target.name]: e.target.value, });
   }
-
 
   return (
     <div className="contact comp">
@@ -20,14 +24,16 @@ export default function ContactForm(){
         type="text"
         id="name"
         name="name"
-        value="Name"
+        value={value}
+        onChange={handleChanges}
         />
         <label for="email">Email Address:</label>
         <input
         type="email"
         id="email"
         name="email"
-        value="Email Address"
+        value={value}
+        onChange={handleChanges}
         />
         <label for="message">Message:</label>
         <input
