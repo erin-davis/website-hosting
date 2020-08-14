@@ -12,18 +12,17 @@ import Footer from "./components/Footer.js";
 class App extends React.Component {
   constructor(){
     super();
-    console.log('in constructor');
   }
 
   componentDidMount(){
     window.onscroll = function(){scrolling()};
-    console.log('in cdm');
+    //console.log('in cdm');
     let navibar = document.getElementById('navibar');
-    console.log("nav bar", navibar);
+  //  console.log("nav bar", navibar);
     let sticky = navibar.offsetTop;
     //adding the sticky class on scroll
     function scrolling(){
-      if(window.pageYOffset >= sticky){
+      if(window.pageYOffset > sticky){
         navibar.classList.add('sticky');
       } else {
         navibar.classList.remove('sticky');
@@ -32,7 +31,6 @@ class App extends React.Component {
   }
 
   render(){
-    console.log('in render');
   return (
     <Router>
       <main>
