@@ -8,7 +8,6 @@ import About from "./components/About.js";
 import ContactForm from "./components/ContactForm.js";
 import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.js";
-
 class App extends React.Component {
   constructor(){
     super();
@@ -39,13 +38,13 @@ class App extends React.Component {
           <NavBar />
           </header>
           <div className="app-body">
-          <LandingPage />
-          <About />
-          <SkillsPage />
-          <Projects />
-          <ContactForm />
-          <Footer />
+            <LandingPage />
+            <About />
+            <SkillsPage />
+            <Projects />
+            <ContactForm />
           </div>
+          <Footer />
         </div>
       </main>
     </Router>

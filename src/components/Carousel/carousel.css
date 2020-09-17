@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: 0px;
+}
+*::webkit-scrollbar-track{
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+  background: transparent;
+  border: none;
+}
+
+.image{
+  width: 100%;
+  height: auto;
+}
+
+.slider-wrapper{
+  border: 3px solid pink;
+  position: relative;
+  width: 100%;
+  padding-top: 75%
+}
+
+.inner{
+  border: 3px solid green;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.inner article{
+  position: relative;
+  flex: 0 0 100%;
+  width: 100%;
+}
+/* Sets image opacity and gives them all the same height */
+.image{
+  height: 600px;
+  opacity: .5;
+}
+
+.inactive-slide{
+  display: none;
+}
+
+.active-slide{
+  display: block;
+}
+
+.slider-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-items{
+
+}
+
+.arrow:hover{
+  background-color: pink;
+}
+
+.arrow {
+  border: 2px solid red;
+  padding: 20px;
+  margin-bottom: 30px;
+}
