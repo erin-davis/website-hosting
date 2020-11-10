@@ -1,8 +1,16 @@
 .footer{
   width: 100%;
-  background-color: #C5312B;
-  min-height: 9.3vh;
-  color: white;
+  background-color: #FFE49E;
+  min-height: 5vh;
+  color: #5D4A66;
+  position: fixed;
+  left: 0;
+  bottom: 0;
   display: flex;
   justify-content: center;
+}
+
+.footer p{
+  margin: auto;
+  font-size: .9rem;
 }

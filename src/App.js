@@ -39,10 +39,12 @@ class App extends React.Component {
           <NavBar />
           </header>
           <div className="app-body">
-            <LandingPage />
-            <About />
-            <SkillsPage />
-            <Projects />
+            <Route exact path="/">
+              <LandingPage />
+            </Route>
+            <Route path='/projects'>
+              <Projects />
+            </Route>
             <Route path="/contact">
                <ContactForm />
             </Route>

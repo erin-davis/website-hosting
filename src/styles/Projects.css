@@ -1,3 +1,25 @@
+.projects-page{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.projects-page h1{
+  width: 100%;
+}
+
+.project{
+  border: 1px solid pink;
+  border-radius: 10px;
+  width: 40%;
+  margin: 10px 4.5%;
+}
+
+.project-screenshot{
+  width: 500px;
+  height: 333px;
+}
+
 .carousel {
   position: relative
 }

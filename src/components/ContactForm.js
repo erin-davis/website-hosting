@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "../styles/ContactForm.css";
 
 export default function ContactForm(){
 
