@@ -1,5 +1,5 @@
 //this is an object of the portfolio projects that i'll be drawing from
-import proj1 from "../images/projectimg1.jpg";
+import proj1 from "../images/netflix-clone1.JPG";
 import proj2 from "../images/projectimg2.jpg";
 import proj3 from "../images/projectimg3.jpg";
 import proj4 from "../images/projectimg4.jpg";
@@ -8,11 +8,11 @@ import proj6 from "../images/projectimg6.jpg";
 
 export const portProj = [
   {
-    name: "Interactive Music Player",
+    name: "Netflix Clone",
     screenshot: proj1,
-    repo: "https://github.com/erin-davis/Music-Player-React",
-    site: "link the deployed site here",
-    summary: "Here’s the summary of the app and what it does. This is pretty neat!"
+    repo: "https://github.com/erin-davis/netflix-clone",
+    site: "https://fake-netflix.herokuapp.com",
+    summary: "This is a clone of Netflix made using React for the front end and Firebase as the back end."
   },
   {
     name: "Projects Todo App",

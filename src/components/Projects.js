@@ -3,7 +3,7 @@ import { CarouselItem } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 import {portProj} from "../data/PortfolioInfo.js";
 import {forward, back} from "../data/tabler-icons";
-import "../Projects.css";
+import "../styles/Projects.css";
 
 function Projects(){
 

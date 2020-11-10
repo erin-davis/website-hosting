@@ -32,6 +32,7 @@ class App extends React.Component {
   render(){
   return (
     <Router>
+      <Switch>
       <main>
         <div className="App large medium small">
           <header>
@@ -42,11 +43,14 @@ class App extends React.Component {
             <About />
             <SkillsPage />
             <Projects />
-            <ContactForm />
+            <Route path="/contact">
+               <ContactForm />
+            </Route>
           </div>
           <Footer />
         </div>
       </main>
+      </Switch>
     </Router>
   );
 }

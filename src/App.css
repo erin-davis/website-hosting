@@ -235,25 +235,3 @@ body{
   /*end of small*/
 }
 
-.react-carousel{
-  width: 90%;
-  height: 700px;
-}
-
-.project-screenshot{
-  width: 500px;
-  height: 500px;
-}
-
-.carousel-item{
-  width: 100%;
-  height: auto;
-}
-
-.footer{
-  width: 100%;
-  background-color: #C5312B;
-  min-height: 10vh;
-  color: white;
-
-}
