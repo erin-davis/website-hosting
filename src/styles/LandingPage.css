@@ -1,0 +1,32 @@
+.landing-page{
+  border: 1px solid #5D4A66;
+  border-radius: 10px;
+  box-shadow:
+  0 3.4px 38.3px rgba(0, 0, 0, 0.057),
+  0 5.5px 62px rgba(0, 0, 0, 0.085),
+  0 7.7px 76.2px rgba(0, 0, 0, 0.109),
+  0 20px 25px rgba(0, 0, 0, 0.15)
+;
+  padding: 20px;
+}
+
+.landing-page h2{
+  overflow: hidden;
+  border-right: .15em solid #5D4A66 ;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation:
+    typing 5s steps(40, end),
+    blink-caret 1s step-end infinite;
+}
+
+@keyframes typing{
+  from {width: 0}
+  to {width: 100%}
+}
+
+@keyframes blink-caret{
+  from, to {border-color: transparent}
+  50%{ border-color: #5D4A66 }
+} 

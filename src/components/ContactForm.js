@@ -7,13 +7,21 @@ export default function ContactForm(){
   contact form to just a message that says "I'll get back to you soon!"
   Also make sure all the inputs except the checkbox are required
   */
+
+
   const [value, setValue] = useState({
     name: "",
     email: "",
     message: ""
   })
   const handleChanges = e =>{
-    setValue({...value, [e.target.name]: e.target.value, });
+    setValue({...value, [e.target.name]: e.target.value });
+    console.log('this is from the contact form', e.target.value);
+  }
+
+  const submitHandler = e =>{
+    e.preventDefault();
+    alert("Your message has been");
   }
 
   return (
@@ -24,8 +32,9 @@ export default function ContactForm(){
         <input
         type="text"
         id="name"
+        placeholder="Name"
         name="name"
-        value={value}
+        value={value.name}
         onChange={handleChanges}
         />
         <label for="email">Email Address:</label>
@@ -33,23 +42,19 @@ export default function ContactForm(){
         type="email"
         id="email"
         name="email"
-        value={value}
+        placeholder="Email"
+        value={value.email}
         onChange={handleChanges}
         />
         <label for="message">Message:</label>
-        <input
-        type="text"
+        <textarea
         id="message"
         name="message"
-        value="Your message here!"
+        placeholder="Your message here!"
+        value={value.message}
+        onChange={handleChanges}
         />
-        <lable for="newsletter">I want to sign up for your monthly newsletter</lable>
-        <input
-        type="checkbox"
-        id="newsletter"
-        name="newsletter"
-        />
-        <button type="submit">Submit</button>
+        <button type="submit" href="mailto:davisaerin@gmail.com" onSubmit={submitHandler}>Submit</button>
       </form>
     </div>
   );
