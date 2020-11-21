@@ -17,6 +17,8 @@ nav{
 .nav-links .link{
   padding: 10px;
   margin: 0 5px;
+  transition: background-color .4s ease;
+  border-radius: 5px;
 }
 
 .nav-links .link:hover{
