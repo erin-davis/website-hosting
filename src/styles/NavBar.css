@@ -1,0 +1,69 @@
+nav{
+  background-color: #FFE49E ;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link{
+  text-decoration: none;
+  color: #5D4A66 ;
+}
+
+.nav-links{
+  margin: auto 0;
+}
+
+.nav-links .link{
+  padding: 10px;
+  margin: 0 5px;
+  transition: background-color .4s ease;
+  border-radius: 5px;
+}
+
+.nav-links .link:hover{
+  background-color: #5D4A66;
+  color: #FFE49E;
+  border-radius: 5px;
+  /* animation to make the hover appear nicer also maybe a slight size increase */
+}
+
+.link h1:hover{
+/* size increase! */
+}
+
+/* on hover, they should switch colors to white background and red pink text make sure to have an animation so it looks smooth. The same for the title, it should change colors on hover, maybe to blue? */
+
+/* nav{
+  background: #C98986;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-links Link{
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+.links:hover{
+  background: #582630;
+  color: lightgray;
+}
+
+#navibar{
+  overflow: hidden;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */

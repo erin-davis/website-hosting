@@ -1,0 +1,54 @@
+.projects{
+  padding-bottom: 40px;
+}
+
+.projects h1{
+  margin: 0 auto;
+}
+
+.total-projects{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.project{
+  border: 2px solid #291711;
+  border-radius: 10px;
+  width: 35%;
+  margin: 25px 10px;
+  transition: transform 500ms;
+
+}
+
+.project:hover{
+  transform: scale(1.12);
+}
+
+.project-image{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.project h2{
+  color: gray;
+}
+
+.project p{
+  font-size: 1.2rem;
+}
+
+.project a{
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: lightblue;
+  padding: 5px;
+  margin: 5px;
+  transition-timing-function: ease;
+  transition: all 0.4s;
+}
+
+.project a:hover{
+  color: darkblue;
+}
