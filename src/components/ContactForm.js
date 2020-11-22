@@ -1,53 +1,44 @@
 import React, {useState} from "react";
 import "../styles/ContactForm.css";
+import emailjs from "emailjs-com"
 
 export default function ContactForm(){
+  const sendEmail = (e) =>{
+    e.preventDefault();
 
-  /*on submit should pop and alert saying it's been submitted or just change the
-  contact form to just a message that says "I'll get back to you soon!"
-  Also make sure all the inputs except the checkbox are required
-  */
-  const [value, setValue] = useState({
-    name: "",
-    email: "",
-    message: ""
-  })
-  const handleChanges = e =>{
-    setValue({...value, [e.target.name]: e.target.value, });
+    emailjs.sendForm('service_asrrdik', 'template_31u6koi', e.target, 'user_wAhuZV6QrAHl0yvShygvC')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    e.target.reset()
   }
 
   return (
     <div className="contact comp">
       <h1>Contact Me!</h1>
-      <form>
+      <form onSubmit={sendEmail}>
         <label for="name">Name:</label>
         <input
         type="text"
         id="name"
         name="name"
-        value={value}
-        onChange={handleChanges}
+        placeholder="Your Name"
         />
         <label for="email">Email Address:</label>
         <input
         type="email"
         id="email"
         name="email"
-        value={value}
-        onChange={handleChanges}
+        placeholder="Your Email Address"
         />
         <label for="message">Message:</label>
         <input
-        type="text"
+        type="textarea"
         id="message"
         name="message"
-        value="Your message here!"
-        />
-        <lable for="newsletter">I want to sign up for your monthly newsletter</lable>
-        <input
-        type="checkbox"
-        id="newsletter"
-        name="newsletter"
+        placeholder="Your message here!"
         />
         <button type="submit">Submit</button>
       </form>
