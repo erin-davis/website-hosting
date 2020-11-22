@@ -8,11 +8,25 @@ import About from "./components/About.js";
 import ContactForm from "./components/ContactForm.js";
 import NavBar from "./components/NavBar.js";
 import Footer from "./components/Footer.js";
-
-
 class App extends React.Component {
   constructor(){
     super();
+  }
+
+  componentDidMount(){
+    window.onscroll = function(){scrolling()};
+    //console.log('in cdm');
+    let navibar = document.getElementById('navibar');
+  //  console.log("nav bar", navibar);
+    let sticky = navibar.offsetTop;
+    //adding the sticky class on scroll
+    function scrolling(){
+      if(window.pageYOffset > sticky){
+        navibar.classList.add('sticky');
+      } else {
+        navibar.classList.remove('sticky');
+      }
+    }
   }
 
   render(){
