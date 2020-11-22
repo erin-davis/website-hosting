@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18b17285.chunk.css",
+    "main.js": "/static/js/main.e2ea873b.chunk.js",
+    "main.js.map": "/static/js/main.e2ea873b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a68b0f98.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a68b0f98.js.map",
+    "static/js/2.a295c022.chunk.js": "/static/js/2.a295c022.chunk.js",
+    "static/js/2.a295c022.chunk.js.map": "/static/js/2.a295c022.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5ffb1d799fc7ce019ccc549ebb0fb2b9.js": "/precache-manifest.5ffb1d799fc7ce019ccc549ebb0fb2b9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.18b17285.chunk.css.map": "/static/css/main.18b17285.chunk.css.map",
+    "static/js/2.a295c022.chunk.js.LICENSE.txt": "/static/js/2.a295c022.chunk.js.LICENSE.txt",
+    "static/media/CSS-Logo.png": "/static/media/CSS-Logo.bf104c5e.png",
+    "static/media/Javascript-Logo.png": "/static/media/Javascript-Logo.ad1ae46e.png",
+    "static/media/React-Logo.png": "/static/media/React-Logo.56cbceaf.png",
+    "static/media/Redux-Logo.png": "/static/media/Redux-Logo.4912f6d8.png",
+    "static/media/Vue-Logo.png": "/static/media/Vue-Logo.05ad4c3b.png",
+    "static/media/netflix-clone1.JPG": "/static/media/netflix-clone1.3b0fc20e.JPG",
+    "static/media/projectimg2.jpg": "/static/media/projectimg2.8a30533e.jpg",
+    "static/media/projectimg3.jpg": "/static/media/projectimg3.880558a9.jpg",
+    "static/media/projectimg4.jpg": "/static/media/projectimg4.90b3774c.jpg",
+    "static/media/projectimg5.jpg": "/static/media/projectimg5.fb0dbbe4.jpg",
+    "static/media/projectimg6.jpg": "/static/media/projectimg6.f753e499.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a68b0f98.js",
+    "static/js/2.a295c022.chunk.js",
+    "static/css/main.18b17285.chunk.css",
+    "static/js/main.e2ea873b.chunk.js"
+  ]
+}
