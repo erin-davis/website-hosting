@@ -4,7 +4,7 @@ import "../styles/NavBar.css";
 
 export default function NavBar(){
   return(
-    <nav className="navigation" id="navibar">
+    <nav className="navigation" >
       <Link to="/" className="link">
         <h1>Erin Davis</h1>
       </Link>

@@ -34,8 +34,7 @@ export default function ContactForm(){
         placeholder="Your Email Address"
         />
         <label for="message">Message:</label>
-        <input
-        type="textarea"
+        <textarea
         id="message"
         name="message"
         placeholder="Your message here!"

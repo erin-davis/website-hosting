@@ -12,19 +12,7 @@ class App extends React.Component {
   }
 
   componentDidMount(){
-    window.onscroll = function(){scrolling()};
-    //console.log('in cdm');
-    let navibar = document.getElementById('navibar');
-  //  console.log("nav bar", navibar);
-    let sticky = navibar.offsetTop;
-    //adding the sticky class on scroll
-    function scrolling(){
-      if(window.pageYOffset > sticky){
-        navibar.classList.add('sticky');
-      } else {
-        navibar.classList.remove('sticky');
-      }
-    }
+
   }
 
   render(){
