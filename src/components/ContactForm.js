@@ -1,60 +1,46 @@
 import React, {useState} from "react";
 import "../styles/ContactForm.css";
+import emailjs from "emailjs-com"
 
 export default function ContactForm(){
-
-  /*on submit should pop and alert saying it's been submitted or just change the
-  contact form to just a message that says "I'll get back to you soon!"
-  Also make sure all the inputs except the checkbox are required
-  */
-
-
-  const [value, setValue] = useState({
-    name: "",
-    email: "",
-    message: ""
-  })
-  const handleChanges = e =>{
-    setValue({...value, [e.target.name]: e.target.value });
-    console.log('this is from the contact form', e.target.value);
-  }
-
-  const submitHandler = e =>{
+  const sendEmail = (e) =>{
     e.preventDefault();
-    alert("Your message has been");
+
+    emailjs.sendForm('service_asrrdik', 'template_31u6koi', e.target, 'user_wAhuZV6QrAHl0yvShygvC')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    e.target.reset()
   }
 
   return (
     <div className="contact comp">
       <h1>Contact Me!</h1>
-      <form>
+      <form onSubmit={sendEmail}>
         <label for="name">Name:</label>
         <input
         type="text"
         id="name"
-        placeholder="Name"
         name="name"
-        value={value.name}
-        onChange={handleChanges}
+        placeholder="Your Name"
         />
         <label for="email">Email Address:</label>
         <input
         type="email"
         id="email"
         name="email"
-        placeholder="Email"
-        value={value.email}
-        onChange={handleChanges}
+        placeholder="Your Email Address"
         />
         <label for="message">Message:</label>
-        <textarea
+        <input
+        type="text"
         id="message"
         name="message"
         placeholder="Your message here!"
-        value={value.message}
-        onChange={handleChanges}
         />
-        <button type="submit" href="mailto:davisaerin@gmail.com" onSubmit={submitHandler}>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );

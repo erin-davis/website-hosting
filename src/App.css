@@ -1,90 +1,9 @@
-main{
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+
+body{
+  background-color: rgb(225, 236, 240);
 }
 
 .app-body{
-  padding: 20px;
+  padding: 10px;
   width: 80%;
-  margin: auto;
-  min-height: 100%;
-}
-
-.App{
-  /* padding-bottom: 2.7rem;
-  margin-bottom: -2.7rem; */
-}
-
-/*media query for smaller screen at 1050px
-class large
-*/
-@media (max-width: 1050px){
-  body{
-    color: lightslategray;
-  }
-  .App{
-    background: #582630;
-  }
-  .navigation, .large{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: space-around;
-
-  }
-  .navigation .large, .site-header{
-    /*width: 75%;*/
-    font-size: 2.4rem;
-    /*margin-left: 12%;*/
-    color: black;
-    width: 95%;
-  }
-  .navigation .large, .links{
-    flex-grow: 1;
-  }
-/*end of large*/
-}
-
-/*fixing header at max 890px
-@media (max-width: 890px){
-  .navigation .large, .site-header{
-    width: 100%;
-  }
-}*/
-
-
-/*media query for tablet at 800px
-class medium*/
-@media (max-width: 800px){
-  body{
-    color: pink;
-  }
-  .App{
-    background: lavender;
-  }
-  .medium .navigation{
-    border: 2px solid black;
-    background: yellow;
-  }
-  /*end of medium*/
-}
-
-
-/*media query for mobile at 500px
-class small
-*/
-@media (max-width: 500px){
-body{
-    color: yellow;
-  }
-  .App{
-    background: black;
-  }
-  .small .navigation{
-    border: 3px solid red;
-    background: purple;
-  }
-  /*end of small*/
-}
-
+  margin: 10px 9%;

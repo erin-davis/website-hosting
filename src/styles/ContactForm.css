@@ -1,6 +1,4 @@
 .contact{
-  border: 1px solid #5D4A66;
-  border-radius: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -11,34 +9,19 @@
   0 7.7px 76.2px rgba(0, 0, 0, 0.109),
   0 20px 25px rgba(0, 0, 0, 0.15)
 ;
+background-color: #ffffed;
 }
-
-.contact h1{
-  margin: auto;
-  border-radius: 5px;
-  padding: 5px 15px;
-}
-
 form{
   display: flex;
   flex-direction: column;
-  /*align-items: flex-start;*/
   width: 75%;
   padding: 15px;
   margin: auto;
-  /* border: 1px solid black; */
   padding: 30px 15px;
 }
-
 form label{
-  font-size: 1.3rem;
-}
-
-form input[type=text], input[type=email]{
-  border: 1px solid #5D4A66 ;
-  border-radius: 5px;
-  padding: 15px 10px;
   font-size: 1rem;
+  background-color: #ffffed;
 }
 
 form textarea{
@@ -46,6 +29,8 @@ form textarea{
   border-radius: 5px;
   height: 150px;
   font-size: 1.2rem;
+  background-color: #ffffed;
+
 }
 
 form input[type=text]:focus, input[type=email]:focus, textarea:focus{
@@ -60,16 +45,28 @@ form button{
   background-color: #fff6de;
   outline: none;
   border: 1px solid #5D4A66;
+  color: #5D4A66;
   border-radius: 5px;
   transition: background-color .4s ease;
   margin: auto;
   margin-top: 10px;
+  font-size: 1.1rem;
 }
 
 form button:hover{
-  background-color: #e6c673;
+  background-color: #FFE49E;
+  color: #3d2647;
 }
 
 form input, textarea, label{
   margin: 2.5px;
+}
+
+@media (max-width: 990px){
+  .contact{
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px){
 }

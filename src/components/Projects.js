@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import {portProj} from "../data/PortfolioInfo.js";
-import {forward, back} from "../data/tabler-icons";
 import "../styles/Projects.css";
 
 function Projects(){
@@ -15,8 +14,10 @@ function Projects(){
               <img src={proj.screenshot} alt={`${proj.name} site screenshot`} className="project-image"/>
               <h2>{proj.name}</h2>
               <p>{proj.summary}</p>
-              <a href={proj.site} target="_blank">View</a>
-              <a href={proj.repo} target="_blank">Repo</a>
+              <section className="project-links">
+                <a href={proj.site} target="_blank">View</a>
+                <a href={proj.repo} target="_blank">Repo</a>
+              </section>
             </div>
           )
           })}

@@ -1,11 +1,13 @@
 .footer{
   width: 100%;
   background-color: #FFE49E;
+  min-height: 5vh;
   color: #5D4A66;
-  display: flex;
-  height: 2.7rem;
   position: fixed;
+  left: 0;
   bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .footer p{
