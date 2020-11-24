@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da7b85de.chunk.css",
+    "main.js": "/static/js/main.1d1d0ccd.chunk.js",
+    "main.js.map": "/static/js/main.1d1d0ccd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a68b0f98.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a68b0f98.js.map",
+    "static/js/2.b32f5a1f.chunk.js": "/static/js/2.b32f5a1f.chunk.js",
+    "static/js/2.b32f5a1f.chunk.js.map": "/static/js/2.b32f5a1f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f47b66e845f70123fa5193a7c7460f29.js": "/precache-manifest.f47b66e845f70123fa5193a7c7460f29.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.da7b85de.chunk.css.map": "/static/css/main.da7b85de.chunk.css.map",
+    "static/js/2.b32f5a1f.chunk.js.LICENSE.txt": "/static/js/2.b32f5a1f.chunk.js.LICENSE.txt",
+    "static/media/chara-gen-sc12.JPG": "/static/media/chara-gen-sc12.4a383efa.JPG",
+    "static/media/covid-tracker.JPG": "/static/media/covid-tracker.afe4e29e.JPG",
+    "static/media/evernote-clone.JPG": "/static/media/evernote-clone.babf39c4.JPG",
+    "static/media/netflix-clone1.JPG": "/static/media/netflix-clone1.3b0fc20e.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a68b0f98.js",
+    "static/js/2.b32f5a1f.chunk.js",
+    "static/css/main.da7b85de.chunk.css",
+    "static/js/main.1d1d0ccd.chunk.js"
+  ]
+}
